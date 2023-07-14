@@ -1,5 +1,5 @@
 import 'package:run_dart_code_in_pubsub_message/interaction_data.dart';
-import 'package:run_dart_code_in_pubsub_message/utils/json_utils.dart';
+import 'package:run_dart_code_in_pubsub_message/utils/discord_message_utils.dart';
 import 'package:test/test.dart';
 
 void main() {

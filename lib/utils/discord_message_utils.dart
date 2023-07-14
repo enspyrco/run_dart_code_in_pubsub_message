@@ -1,10 +1,9 @@
 // Extract the interaction info from the json in the message
+import 'package:json_utils/json_utils.dart';
 import 'package:run_dart_code_in_pubsub_message/interaction_data.dart';
 
 import '../enums/application_command_type.dart';
 import '../exceptions/invalid_command_type_exception.dart';
-import '../exceptions/malformed_json_exception.dart';
-import '../typedefs.dart';
 
 InteractionData extractMessageCommandInfo(JsonMap json) {
   final data = json['data'] as JsonMap? ??
