@@ -89,6 +89,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.8"
+  discord_application_utils:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "006b35e35d4c1a05f31168c218c5a3965998e2a1"
+      url: "https://github.com/enspyrco/discord_application_utils"
+    source: git
+    version: "0.0.0-a1"
   enspyr_lints:
     dependency: "direct dev"
     description:

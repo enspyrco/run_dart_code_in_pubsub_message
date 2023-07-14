@@ -3,3 +3,15 @@ dependency_overrides:
     git: https://github.com/enspyrco/enspyr_lints
   json_utils:
     git: https://github.com/enspyrco/json_utils
+  discord_application_utils:
+    git: https://github.com/enspyrco/discord_application_utils
+
+# where are we? dart/servers/<here>
+
+# dependency_overrides:
+  # enspyr_lints:
+  #   path: 
+  # json_utils:
+  #   path: 
+  # discord_application_utils:
+  #   path: ../../utils/discord_application_utils
